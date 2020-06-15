@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+    <script src="https://raw.githubusercontent.com/fedutilities/jq-nav-scroll-spy/master/dist/jq.nav-scroll-spy.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Solerom Software</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <h2 id="logo">SOLEROM</h2>
+        <ul id="links">
+          <li><a href="#main" class="nav-item">Características</a></li>
+          <li><a href="#video" class="nav-item">¿Cómo trabajamos?</a></li>
+          <li><a href="#pricing" class="nav-item">Precios</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <article id="features" class="container spy-item">
+        <div class="info" data-aos="fade-up">
+          <i data-aos="fade-right" class="fas fa-bezier-curve icon"></i>
+          <div>
+            <h3 class="title-txt">
+              Desarrollo de sistemas a medida
+            </h3>
+            <p class="body-txt">
+              Nace de la necesidad de resolver un problema muy particular de su
+              empresa, o bien porque desea tener una ventaja competitiva sobre
+              sus competidores o porque no existe una solución estándar en el
+              mercado que se adapte a su necesidad.
+            </p>
+          </div>
+        </div>
+        <div class="info" data-aos="fade-up" data-aos-delay="500">
+          <i
+            data-aos="fade-right"
+            data-aos-delay="500"
+            class="fas fa-mobile icon"
+          ></i>
+          <div>
+            <h3 class="title-txt">
+              Desarrollo mobile
+            </h3>
+            <p class="body-txt">
+              Con el avance de las tecnologías móviles, es muy importante tener
+              apps propias para sus usuarios porque les permite estar conectados
+              casi constantemente con y sin conexión a internet para acceder a
+              la información de la empresa desde cualquier lugar.
+            </p>
+          </div>
+        </div>
+        <div class="info" data-aos="fade-up" data-aos-delay="1000">
+          <i
+            data-aos="fade-right"
+            data-aos-delay="1000"
+            class="fas fa-building icon"
+          ></i>
+          <div>
+            <h3 class="title-txt">
+              Startups / Portales de Negocios
+            </h3>
+            <p class="body-txt">
+              Una Startup es una “organización temporal” que dejará de ser una
+              Startup en el momento que logre establecer un modelo de negocio
+              sostenible, rentable y escalable.
+            </p>
+          </div>
+        </div>
+      </article>
+      <div class="form-container" data-aos="zoom-in">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email" class="title-txt contact-txt"
+            >Para más información.</label
+          >
+          <br />
+          <input
+            autocomplete="off"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Escribe tu correo electrónico"
+            class="body-txt"
+          /><br />
+          <input class="btn" type="submit" value="COMENZAR" id="submit" />
+        </form>
+      </div>
+      <div data-aos="flip-up" class="embed-container spy-item">
+        <iframe
+          src="https://www.youtube.com/embed/n-FTlQ7Djqc"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </div>
+      <div id="pricing" class="container spy-item">
+        <div class="box-price" data-aos="flip-up">
+          <h4 class="title-txt title-price">Web Site</h4>
+          <h3 class="title-txt txt-price">$900</h3>
+          <p class="body-txt body-price">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+            eligendi nesciunt, a, voluptates omnis ratione voluptas facere harum
+            nulla sed dicta labore. Enim consectetur natus cupiditate expedita
+            aut, soluta nisi!
+          </p>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="box-price" data-aos="flip-up" data-aos-delay="500">
+          <h4 class="title-txt title-price">Aplication</h4>
+          <h3 class="title-txt txt-price">$1600</h3>
+          <p class="body-txt body-price">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+            eligendi nesciunt, a, voluptates omnis ratione voluptas facere harum
+            nulla sed dicta labore. Enim consectetur natus cupiditate expedita
+            aut, soluta nisi!
+          </p>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="box-price" data-aos="flip-up" data-aos-delay="1000">
+          <h4 class="title-txt title-price">Aplication + Hosting</h4>
+          <h3 class="title-txt txt-price">$2000</h3>
+          <p class="body-txt body-price">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+            eligendi nesciunt, a, voluptates omnis ratione voluptas facere harum
+            nulla sed dicta labore. Enim consectetur natus cupiditate expedita
+            aut, soluta nisi!
+          </p>
+          <button class="btn">SELECT</button>
+        </div>
+      </div>
+    </main>
+    <footer class="body-txt">
+      <ul>
+        <a href="">Privacidad</a>
+        <a href="">Términos</a>
+        <a href="">Contacto</a>
+      </ul>
+      <p>
+        Copyright 2020, Solerom Software
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
